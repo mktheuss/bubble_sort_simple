@@ -1,4 +1,4 @@
-def bubble_sort(list: list[float], verbose=False):
+def bubble_sort(list: list[float]):
     n = len(list)
 
     for i in range(n):
