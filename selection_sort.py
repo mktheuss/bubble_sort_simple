@@ -11,6 +11,7 @@ def selection_sort(list: list[float]):
     
     return list
 
+
 list_to_filter = [11, 1234, 45, 756, 897, 765, -45, 34]
 print("Lista antes de ser ordenada:", list_to_filter)
 print("Lista após ser ordenada:", selection_sort(list_to_filter))
